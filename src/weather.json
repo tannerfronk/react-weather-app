@@ -1,44 +1,660 @@
 {
     "Salt Lake City": [
         {
-            "currentTempF": "30°",
-            "currentTempC": "-1°",
+            "currentTempF": "38°",
+            "currentTempC": "3°",
             "days": [
                 {
                     "date": "03/20/2021",
                     "highF": "40°F",
                     "highC": "4°C",
                     "lowF": "28°F",
-                    "lowC": "-2°C"
+                    "lowC": "-2°C",
+                    "chance": "100%",
+                    "wind": "6 mph",
+                    "hours" : [
+                        {
+                            "hour": "1am",
+                            "tempF": "35°F",
+                            "tempC": "2°C"
+                        },
+                        {
+                            "hour": "2am",
+                            "tempF": "34°F",
+                            "tempC": "1°C"
+                        },
+                        {
+                            "hour": "3am",
+                            "tempF": "34°F",
+                            "tempC": "1°C"
+                        },
+                        {
+                            "hour": "4am",
+                            "tempF": "33°F",
+                            "tempC": "1°C"
+                        },
+                        {
+                            "hour": "5am",
+                            "tempF": "32°F",
+                            "tempC": "0°C"
+                        },
+                        {
+                            "hour": "6am",
+                            "tempF": "31°F",
+                            "tempC": "-1°C"
+                        },
+                        {
+                            "hour": "7am",
+                            "tempF": "31°F",
+                            "tempC": "-1°C"
+                        },
+                        {
+                            "hour": "8am",
+                            "tempF": "31°F",
+                            "tempC": "-1°C"
+                        },
+                        {
+                            "hour": "9am",
+                            "tempF": "34°F",
+                            "tempC": "1°C"
+                        },
+                        {
+                            "hour": "10am",
+                            "tempF": "36°F",
+                            "tempC": "2°C"
+                        },
+                        {
+                            "hour": "11am",
+                            "tempF": "37°F",
+                            "tempC": "3°C"
+                        },{
+                            "hour": "12pm",
+                            "tempF": "38°F",
+                            "tempC": "3°C"
+                        }
+                    ]
                 },
                 {
                     "date": "03/21/2021",
+                    "highF": "45°F",
+                    "highC": "7°C",
+                    "lowF": "30°F",
+                    "lowC": "-1°C",
+                    "chance": "24%",
+                    "wind": "12 mph"
+                },
+                {
+                    "date": "03/22/2021",
+                    "highF": "43°F",
+                    "highC": "6°C",
+                    "lowF": "32°F",
+                    "lowC": "0°C",
+                    "chance": "100%",
+                    "wind": "8 mph"
+                },
+                {
+                    "date": "03/23/2021",
+                    "highF": "43°F",
+                    "highC": "6°C",
+                    "lowF": "29°F",
+                    "lowC": "2°C",
+                    "chance": "48%",
+                    "wind": "10 mph"
+                },
+                {
+                    "date": "03/24/2021",
+                    "highF": "49°F",
+                    "highC": "9.4°C",
+                    "lowF": "39°F",
+                    "lowC": "4°C",
+                    "chance": "4%",
+                    "wind": "8 mph"
+                },
+                {
+                    "date": "03/25/2021",
+                    "highF": "46°F",
+                    "highC": "7.7°C",
+                    "lowF": "35°F",
+                    "lowC": "2°C",
+                    "chance": "57%",
+                    "wind": "10 mph"
+                },
+                {
+                    "date": "03/26/2021",
                     "highF": "40°F",
                     "highC": "4°C",
                     "lowF": "28°F",
-                    "lowC": "-2°C"
+                    "lowC": "-2°C",
+                    "chance": "100%",
+                    "wind": "10 mph"
                 }
             ]
         }
     ],
     "Herriman": [
         {
-            "currentTempF": "32°",
-            "currentTempC": "-1°",
+            "currentTempF": "33°",
+            "currentTempC": "1°",
             "days": [
                 {
                     "date": "03/20/2021",
-                    "highF": "4000°F",
-                    "highC": "4°C",
-                    "lowF": "28°F",
-                    "lowC": "-2°C"
+                    "highF": "33°F",
+                    "highC": "0.5°C",
+                    "lowF": "29°F",
+                    "lowC": "-1°C",
+                    "chance": "94%",
+                    "wind": "8 mph",
+                    "hours" : [
+                        {
+                            "hour": "1am",
+                            "tempF": "35°F",
+                            "tempC": "2°C"
+                        },
+                        {
+                            "hour": "2am",
+                            "tempF": "34°F",
+                            "tempC": "1°C"
+                        },
+                        {
+                            "hour": "3am",
+                            "tempF": "34°F",
+                            "tempC": "1°C"
+                        },
+                        {
+                            "hour": "4am",
+                            "tempF": "33°F",
+                            "tempC": "1°C"
+                        },
+                        {
+                            "hour": "5am",
+                            "tempF": "32°F",
+                            "tempC": "0°C"
+                        },
+                        {
+                            "hour": "6am",
+                            "tempF": "31°F",
+                            "tempC": "-1°C"
+                        },
+                        {
+                            "hour": "7am",
+                            "tempF": "31°F",
+                            "tempC": "-1°C"
+                        },
+                        {
+                            "hour": "8am",
+                            "tempF": "31°F",
+                            "tempC": "-1°C"
+                        },
+                        {
+                            "hour": "9am",
+                            "tempF": "34°F",
+                            "tempC": "1°C"
+                        },
+                        {
+                            "hour": "10am",
+                            "tempF": "36°F",
+                            "tempC": "2°C"
+                        },
+                        {
+                            "hour": "11am",
+                            "tempF": "37°F",
+                            "tempC": "3°C"
+                        },{
+                            "hour": "12pm",
+                            "tempF": "38°F",
+                            "tempC": "3°C"
+                        }
+                    ]
                 },
                 {
                     "date": "03/21/2021",
-                    "highF": "40°F",
+                    "highF": "41°F",
+                    "highC": "5°C",
+                    "lowF": "27°F",
+                    "lowC": "-2°C",
+                    "chance": "24%",
+                    "wind": "9 mph"
+                },
+                {
+                    "date": "03/22/2021",
+                    "highF": "41°F",
+                    "highC": "5°C",
+                    "lowF": "29°F",
+                    "lowC": "-1°C",
+                    "chance": "70%",
+                    "wind": "7 mph"
+                },
+                {
+                    "date": "03/23/2021",
+                    "highF": "38°F",
                     "highC": "4°C",
+                    "lowF": "25°F",
+                    "lowC": "-2°C",
+                    "chance": "68%",
+                    "wind": "15 mph"
+                },
+                {
+                    "date": "03/24/2021",
+                    "highF": "40°F",
+                    "highC": "4.4°C",
                     "lowF": "28°F",
-                    "lowC": "-2°C"
+                    "lowC": "-2°C",
+                    "chance": "6%",
+                    "wind": "7 mph"
+                },
+                {
+                    "date": "03/25/2021",
+                    "highF": "43°F",
+                    "highC": "6°C",
+                    "lowF": "31°F",
+                    "lowC": "0°C",
+                    "chance": "57%",
+                    "wind": "11 mph"
+                },
+                {
+                    "date": "03/26/2021",
+                    "highF": "44°F",
+                    "highC": "6.6°C",
+                    "lowF": "29°F",
+                    "lowC": "-2°C",
+                    "chance": "24%",
+                    "wind": "11 mph"
+                }
+            ]
+        }
+    ],
+    "San Francisco": [
+        {
+            "currentTempF": "55°",
+            "currentTempC": "12.7°",
+            "days": [
+                {
+                    "date": "03/20/2021",
+                    "highF": "57°F",
+                    "highC": "13.8°C",
+                    "lowF": "43°F",
+                    "lowC": "6°C",
+                    "chance": "13%",
+                    "wind": "20 mph",
+                    "hours" : [
+                        {
+                            "hour": "1am",
+                            "tempF": "47°F",
+                            "tempC": "8°C"
+                        },
+                        {
+                            "hour": "2am",
+                            "tempF": "47°F",
+                            "tempC": "8°C"
+                        },
+                        {
+                            "hour": "3am",
+                            "tempF": "47°F",
+                            "tempC": "8°C"
+                        },
+                        {
+                            "hour": "4am",
+                            "tempF": "46°F",
+                            "tempC": "8°C"
+                        },
+                        {
+                            "hour": "5am",
+                            "tempF": "45°F",
+                            "tempC": "7°C"
+                        },
+                        {
+                            "hour": "6am",
+                            "tempF": "44°F",
+                            "tempC": "7°C"
+                        },
+                        {
+                            "hour": "7am",
+                            "tempF": "43°F",
+                            "tempC": "6°C"
+                        },
+                        {
+                            "hour": "8am",
+                            "tempF": "43°F",
+                            "tempC": "6°C"
+                        },
+                        {
+                            "hour": "9am",
+                            "tempF": "46°F",
+                            "tempC": "8°C"
+                        },
+                        {
+                            "hour": "10am",
+                            "tempF": "51°F",
+                            "tempC": "10°C"
+                        },
+                        {
+                            "hour": "11am",
+                            "tempF": "54°F",
+                            "tempC": "12°C"
+                        },{
+                            "hour": "12pm",
+                            "tempF": "55°F",
+                            "tempC": "13°C"
+                        }
+                    ]
+                },
+                {
+                    "date": "03/21/2021",
+                    "highF": "60°F",
+                    "highC": "15.5°C",
+                    "lowF": "46°F",
+                    "lowC": "8°C",
+                    "chance": "6%",
+                    "wind": "17 mph"
+                },
+                {
+                    "date": "03/22/2021",
+                    "highF": "60°F",
+                    "highC": "15.5°C",
+                    "lowF": "47°F",
+                    "lowC": "8°C",
+                    "chance": "5%",
+                    "wind": "20 mph"
+                },
+                {
+                    "date": "03/23/2021",
+                    "highF": "65°F",
+                    "highC": "18.3°C",
+                    "lowF": "50°F",
+                    "lowC": "10°C",
+                    "chance": "5%",
+                    "wind": "15 mph"
+                },
+                {
+                    "date": "03/24/2021",
+                    "highF": "63°F",
+                    "highC": "17°C",
+                    "lowF": "48°F",
+                    "lowC": "9°C",
+                    "chance": "2%",
+                    "wind": "14 mph"
+                },
+                {
+                    "date": "03/25/2021",
+                    "highF": "59°F",
+                    "highC": "15°C",
+                    "lowF": "45°F",
+                    "lowC": "7°C",
+                    "chance": "5%",
+                    "wind": "17 mph"
+                },
+                {
+                    "date": "03/26/2021",
+                    "highF": "63°F",
+                    "highC": "17°C",
+                    "lowF": "48°F",
+                    "lowC": "9°C",
+                    "chance": "3%",
+                    "wind": "11 mph"
+                }
+            ]
+        }
+    ],
+    "New York City": [
+        {
+            "currentTempF": "56°",
+            "currentTempC": "13.3°",
+            "days": [
+                {
+                    "date": "03/20/2021",
+                    "highF": "56°F",
+                    "highC": "13.3°C",
+                    "lowF": "38°F",
+                    "lowC": "3°C",
+                    "chance": "4%",
+                    "wind": "4 mph",
+                    "hours" : [
+                        {
+                            "hour": "1am",
+                            "tempF": "44°F",
+                            "tempC": "7°C"
+                        },
+                        {
+                            "hour": "2am",
+                            "tempF": "43°F",
+                            "tempC": "16°C"
+                        },
+                        {
+                            "hour": "3am",
+                            "tempF": "40°F",
+                            "tempC": "4°C"
+                        },
+                        {
+                            "hour": "4am",
+                            "tempF": "39°F",
+                            "tempC": "4°C"
+                        },
+                        {
+                            "hour": "5am",
+                            "tempF": "28°F",
+                            "tempC": "-2°C"
+                        },
+                        {
+                            "hour": "6am",
+                            "tempF": "38°F",
+                            "tempC": "3°C"
+                        },
+                        {
+                            "hour": "7am",
+                            "tempF": "38°F",
+                            "tempC": "3°C"
+                        },
+                        {
+                            "hour": "8am",
+                            "tempF": "38°F",
+                            "tempC": "3°C"
+                        },
+                        {
+                            "hour": "9am",
+                            "tempF": "43°F",
+                            "tempC": "6°C"
+                        },
+                        {
+                            "hour": "10am",
+                            "tempF": "47°F",
+                            "tempC": "8°C"
+                        },
+                        {
+                            "hour": "11am",
+                            "tempF": "51°F",
+                            "tempC": "10°C"
+                        },{
+                            "hour": "12pm",
+                            "tempF": "54°F",
+                            "tempC": "12°C"
+                        }
+                    ]
+                },
+                {
+                    "date": "03/21/2021",
+                    "highF": "61°F",
+                    "highC": "16°C",
+                    "lowF": "37°F",
+                    "lowC": "3°C",
+                    "chance": "3%",
+                    "wind": "5 mph"
+                },
+                {
+                    "date": "03/22/2021",
+                    "highF": "59°F",
+                    "highC": "15°C",
+                    "lowF": "41°F",
+                    "lowC": "5°C",
+                    "chance": "9%",
+                    "wind": "7 mph"
+                },
+                {
+                    "date": "03/23/2021",
+                    "highF": "62°F",
+                    "highC": "16°C",
+                    "lowF": "46°F",
+                    "lowC": "8°C",
+                    "chance": "11%",
+                    "wind": "7 mph"
+                },
+                {
+                    "date": "03/24/2021",
+                    "highF": "63°F",
+                    "highC": "17°C",
+                    "lowF": "48°F",
+                    "lowC": "9°C",
+                    "chance": "6%",
+                    "wind": "17 mph"
+                },
+                {
+                    "date": "03/25/2021",
+                    "highF": "59°F",
+                    "highC": "15°C",
+                    "lowF": "45°F",
+                    "lowC": "7°C",
+                    "chance": "5%",
+                    "wind": "20 mph"
+                },
+                {
+                    "date": "03/26/2021",
+                    "highF": "63°F",
+                    "highC": "17°C",
+                    "lowF": "48°F",
+                    "lowC": "9°C",
+                    "chance": "3%",
+                    "wind": "14 mph"
+                }
+            ]
+        }
+    ],
+    "Denver": [
+        {
+            "currentTempF": "18°F",
+            "currentTempC": "1°C",
+            "days": [
+                {
+                    "date": "03/20/2021",
+                    "highF": "64°F",
+                    "highC": "18°C",
+                    "lowF": "34°F",
+                    "lowC": "1°C",
+                    "chance": "9%",
+                    "wind": "11 mph",
+                    "hours" : [
+                        {
+                            "hour": "1am",
+                            "tempF": "45°F",
+                            "tempC": "7°C"
+                        },
+                        {
+                            "hour": "2am",
+                            "tempF": "45°F",
+                            "tempC": "7°C"
+                        },
+                        {
+                            "hour": "3am",
+                            "tempF": "42°F",
+                            "tempC": "5°C"
+                        },
+                        {
+                            "hour": "4am",
+                            "tempF": "41°F",
+                            "tempC": "5°C"
+                        },
+                        {
+                            "hour": "5am",
+                            "tempF": "38°F",
+                            "tempC": "3°C"
+                        },
+                        {
+                            "hour": "6am",
+                            "tempF": "37°F",
+                            "tempC": "3°C"
+                        },
+                        {
+                            "hour": "7am",
+                            "tempF": "35°F",
+                            "tempC": "2°C"
+                        },
+                        {
+                            "hour": "8am",
+                            "tempF": "36°F",
+                            "tempC": "2°C"
+                        },
+                        {
+                            "hour": "9am",
+                            "tempF": "39°F",
+                            "tempC": "4°C"
+                        },
+                        {
+                            "hour": "10am",
+                            "tempF": "41°F",
+                            "tempC": "5°C"
+                        },
+                        {
+                            "hour": "11am",
+                            "tempF": "42°F",
+                            "tempC": "5°C"
+                        },{
+                            "hour": "12pm",
+                            "tempF": "42°F",
+                            "tempC": "5°C"
+                        }
+                    ]
+                },
+                {
+                    "date": "03/21/2021",
+                    "highF": "44°F",
+                    "highC": "7°C",
+                    "lowF": "30°F",
+                    "lowC": "-1°C",
+                    "chance": "9%",
+                    "wind": "12 mph"
+                },
+                {
+                    "date": "03/22/2021",
+                    "highF": "42°F",
+                    "highC": "6°C",
+                    "lowF": "26°F",
+                    "lowC": "-4°C",
+                    "chance": "77%",
+                    "wind": "8 mph"
+                },
+                {
+                    "date": "03/23/2021",
+                    "highF": "42°F",
+                    "highC": "5°C",
+                    "lowF": "28°F",
+                    "lowC": "-2°C",
+                    "chance": "68%",
+                    "wind": "13 mph"
+                },
+                {
+                    "date": "03/24/2021",
+                    "highF": "42°F",
+                    "highC": "5°C",
+                    "lowF": "25°F",
+                    "lowC": "-4°C",
+                    "chance": "4%",
+                    "wind": "7 mph"
+                },
+                {
+                    "date": "03/25/2021",
+                    "highF": "52°F",
+                    "highC": "11°C",
+                    "lowF": "32°F",
+                    "lowC": "0°C",
+                    "chance": "24%",
+                    "wind": "8 mph"
+                },
+                {
+                    "date": "03/26/2021",
+                    "highF": "48°F",
+                    "highC": "9°C",
+                    "lowF": "29°F",
+                    "lowC": "-1°C",
+                    "chance": "58%",
+                    "wind": "10 mph"
                 }
             ]
         }

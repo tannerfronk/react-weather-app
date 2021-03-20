@@ -34,6 +34,8 @@ function Weather() {
           <h2>Current Temperature: {WeatherInfo[name][0].currentTempF}</h2>
           <h3>High: {WeatherInfo[name][0].days[value].highF}</h3>
           <h3>Low: {WeatherInfo[name][0].days[value].lowF}</h3>
+          <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].chance}</h3>
+          <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].wind}</h3>
         </div>
       )
     }
@@ -52,6 +54,8 @@ function Weather() {
           <h2>Current Temperature: {WeatherInfo[name][0].currentTempC}</h2>
           <h3>High: {WeatherInfo[name][0].days[value].highC}</h3>
           <h3>Low: {WeatherInfo[name][0].days[value].lowC}</h3>
+          <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].chance}</h3>
+          <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].wind}</h3>
         </div>
       )
     }
@@ -105,8 +109,6 @@ function Weather() {
     )
 
 }
-
-
 
 ReactDOM.render(
   <Weather />,
