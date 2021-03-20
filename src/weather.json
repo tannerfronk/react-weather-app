@@ -1,0 +1,46 @@
+{
+    "Salt Lake City": [
+        {
+            "currentTempF": "30°",
+            "currentTempC": "-1°",
+            "days": [
+                {
+                    "date": "03/20/2021",
+                    "highF": "40°F",
+                    "highC": "4°C",
+                    "lowF": "28°F",
+                    "lowC": "-2°C"
+                },
+                {
+                    "date": "03/21/2021",
+                    "highF": "40°F",
+                    "highC": "4°C",
+                    "lowF": "28°F",
+                    "lowC": "-2°C"
+                }
+            ]
+        }
+    ],
+    "Herriman": [
+        {
+            "currentTempF": "32°",
+            "currentTempC": "-1°",
+            "days": [
+                {
+                    "date": "03/20/2021",
+                    "highF": "40°F",
+                    "highC": "4°C",
+                    "lowF": "28°F",
+                    "lowC": "-2°C"
+                },
+                {
+                    "date": "03/21/2021",
+                    "highF": "40°F",
+                    "highC": "4°C",
+                    "lowF": "28°F",
+                    "lowC": "-2°C"
+                }
+            ]
+        }
+    ]
+}
