@@ -7,7 +7,6 @@ function Weather() {
 
   const [ isFahrenheit, setIsFahrenheit ] = useState(true)
   const [ name, setName ] = useState('Salt Lake City')
-  console.log(name)
 
   function renderCitySelect(){
     return <CitySelect 
@@ -32,12 +31,12 @@ function Weather() {
       return(
         <div className="todaySquare">
           <div className ="todayTop">
-            <h2>Today's Date: {WeatherInfo[name][0].days[0].date}</h2>
-            <h2>Current Temperature: {WeatherInfo[name][0].currentTempF}</h2>
-            <h3>High: {WeatherInfo[name][0].days[value].highF}</h3>
-            <h3>Low: {WeatherInfo[name][0].days[value].lowF}</h3>
-            <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].chance}</h3>
-            <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].wind}</h3>
+            <h2>Today's Date: <span>{WeatherInfo[name][0].days[0].date}</span></h2>
+            <h2>Current Temperature: <span>{WeatherInfo[name][0].currentTempF}</span></h2>
+            <h3>High: <span>{WeatherInfo[name][0].days[value].highF}</span></h3>
+            <h3>Low: <span>{WeatherInfo[name][0].days[value].lowF}</span></h3>
+            <h3>Chance of precipitation: <span>{WeatherInfo[name][0].days[value].chance}</span></h3>
+            <h3>Wind Speed: <span>{WeatherInfo[name][0].days[value].wind}</span></h3>
           </div>
           <h2>Hourly Forecast:</h2>
           <div className ="todayBot">
@@ -96,12 +95,12 @@ function Weather() {
       return(
         <div className="todaySquare">
           <div className ="todayTop">
-            <h2>Today's Date: {WeatherInfo[name][0].days[0].date}</h2>
-            <h2>Current Temperature: {WeatherInfo[name][0].currentTempC}</h2>
-            <h3>High: {WeatherInfo[name][0].days[value].highC}</h3>
-            <h3>Low: {WeatherInfo[name][0].days[value].lowC}</h3>
-            <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].chance}</h3>
-            <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].wind}</h3>
+            <h2>Today's Date: <span>{WeatherInfo[name][0].days[0].date}</span></h2>
+            <h2>Current Temperature: <span>{WeatherInfo[name][0].currentTempC}</span></h2>
+            <h3>High: <span>{WeatherInfo[name][0].days[value].highC}</span></h3>
+            <h3>Low: <span>{WeatherInfo[name][0].days[value].lowC}</span></h3>
+            <h3>Chance of precipitation: <span>{WeatherInfo[name][0].days[value].chance}</span></h3>
+            <h3>Wind Speed: <span>{WeatherInfo[name][0].days[value].wind}</span></h3>
           </div>
           <h2>Hourly Forecast:</h2>
           <div className ="todayBot">
@@ -177,11 +176,10 @@ function Weather() {
       return(
         <div className="square">
           <h2>{WeatherInfo[name][0].days[value].date}</h2>
-          <h2>Current Temperature: {WeatherInfo[name][0].currentTempF}</h2>
-          <h3>High: {WeatherInfo[name][0].days[value].highF}</h3>
-          <h3>Low: {WeatherInfo[name][0].days[value].lowF}</h3>
-          <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].chance}</h3>
-          <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].wind}</h3>
+          <h3>High: <span>{WeatherInfo[name][0].days[value].highF}</span></h3>
+          <h3>Low: <span>{WeatherInfo[name][0].days[value].lowF}</span></h3>
+          <h3>Chance of precipitation: <span>{WeatherInfo[name][0].days[value].chance}</span></h3>
+          <h3>Wind Speed: <span>{WeatherInfo[name][0].days[value].wind}</span></h3>
         </div>
       )
     }
@@ -198,11 +196,10 @@ function Weather() {
       return(
         <div className="square">
           <h2>{WeatherInfo[name][0].days[value].date}</h2>
-          <h2>Current Temperature: {WeatherInfo[name][0].currentTempC}</h2>
-          <h3>High: {WeatherInfo[name][0].days[value].highC}</h3>
-          <h3>Low: {WeatherInfo[name][0].days[value].lowC}</h3>
-          <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].chance}</h3>
-          <h3>Chance of precipitation: {WeatherInfo[name][0].days[value].wind}</h3>
+          <h3>High: <span>{WeatherInfo[name][0].days[value].highC}</span></h3>
+          <h3>Low: <span>{WeatherInfo[name][0].days[value].lowC}</span></h3>
+          <h3>Chance of precipitation: <span>{WeatherInfo[name][0].days[value].chance}</span></h3>
+          <h3>Wind Speed: <span>{WeatherInfo[name][0].days[value].wind}</span></h3>
         </div>
       )
     }

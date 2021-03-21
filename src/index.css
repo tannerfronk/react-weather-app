@@ -34,6 +34,7 @@ body {
 }
 .todaySquare h2, h3, p {
   margin-left: 1rem;
+  color: #0c2249;
 }
 .todayBot {
   display: flex;
@@ -43,11 +44,12 @@ body {
 .todayBot div {
   padding: 1rem;
   margin-bottom: 1rem;
-  border: 1px solid #d3e3fc;
   border-radius: 5px;
+  background-color: #00887a;
 }
 .todayBot div p {
   margin-left: 0;
+  color: #ffffff;
 }
 #degreeBtn {
   padding: .6rem;
@@ -80,6 +82,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+span {
+  color: #ffffff;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
