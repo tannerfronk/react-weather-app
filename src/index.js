@@ -21,7 +21,7 @@ function Weather() {
   }
 
   function TodaysTile({value}){
-    if(name !== "Salt Lake City" || name !== "Herriman" || name !== "Denver" || name !== "New York City" || name !== "San Francisco"){
+    if(name === ""){
       return(
         <div className="square">
           <p>No data for selected City</p>
@@ -166,7 +166,7 @@ function Weather() {
   }
 
   function FahrenheitWeatherTile({value}){
-    if(name !== "Salt Lake City" || name !== "Herriman" || name !== "Denver" || name !== "New York City" || name !== "San Francisco"){
+    if(name === ""){
       return(
         <div className="square">
           <p>No data for selected City</p>
@@ -186,7 +186,7 @@ function Weather() {
   }
 
   function CelsiusWeatherTile({value}){
-    if(name !== "Salt Lake City" || name !== "Herriman" || name !== "Denver" || name !== "New York City" || name !== "San Francisco"){
+    if(name === ""){
       return(
         <div className="square">
           <p>No data for selected City</p>
