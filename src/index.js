@@ -19,9 +19,10 @@ function Weather() {
       }}
     />
   }
-
+  let doesNameExist = WeatherInfo.hasOwnProperty(name)
+  console.log(doesNameExist)
   function TodaysTile({value}){
-    if(name === ""){
+    if(doesNameExist === false){
       return(
         <div className="square">
           <p>No data for selected City</p>
@@ -166,7 +167,7 @@ function Weather() {
   }
 
   function FahrenheitWeatherTile({value}){
-    if(name === ""){
+    if(doesNameExist === false){
       return(
         <div className="square">
           <p>No data for selected City</p>
@@ -186,7 +187,7 @@ function Weather() {
   }
 
   function CelsiusWeatherTile({value}){
-    if(name === ""){
+    if(doesNameExist === false){
       return(
         <div className="square">
           <p>No data for selected City</p>
