@@ -1,3 +1,14 @@
+# The following cities are supported:
+1. Salt Lake City
+2. Herriman
+3. Denver
+4. San Francisco
+5. New York City
+
+These must be typed as shown for the data to be retrieved.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
